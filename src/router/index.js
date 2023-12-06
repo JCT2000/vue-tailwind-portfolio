@@ -15,7 +15,7 @@ const routes = [
 
 const router = createRouter({
   mode: 'history',
-  history: createWebHistory('/triana-portfolio/'), // Use createWebHistory for history mode
+  history: createWebHistory('/vue-tailwind-portfolio/'), // Use createWebHistory for history mode
   routes,
 });
 

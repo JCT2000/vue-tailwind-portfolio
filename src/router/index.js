@@ -15,11 +15,7 @@ const routes = [
 
 const router = createRouter({
   mode: 'history',
-<<<<<<< HEAD
   history: createWebHistory('/vue-tailwind-portfolio/'), // Use createWebHistory for history mode
-=======
-  history: createWebHistory('/triana-portfolio/'), // Use createWebHistory for history mode
->>>>>>> parent of 44239a7 (Updates)
   routes,
 });
 

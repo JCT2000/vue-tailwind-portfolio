@@ -70,17 +70,26 @@
     <About />
   </div>
   <!-- Skills Section -->
-  <div id="skills" class="section w-full h-screen bg-gray-600"></div>
+  <div id="skills">
+    <Skills />
+  </div>
   <!-- Project Section -->
-  <div id="project" class="section w-full h-screen bg-yellow-600"></div>
+  <div id="project">
+    <Project />
+  </div>
 
   <!-- Contact Section -->
-  <div id="contact" class="section w-full h-screen bg-gray-100"></div>
+  <div id="contact">
+    <Contact />
+  </div>
 </template>
 
 <script>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import About from "./About.vue";
+import Skills from "./Skills.vue";
+import Project from "./Project.vue";
+import Contact from "./Contact.vue";
 
 export default {
   data() {
@@ -97,6 +106,9 @@ export default {
   components: {
     FontAwesomeIcon,
     About,
+    Skills,
+    Project,
+    Contact,
   },
   mounted() {
     this.typeRole();

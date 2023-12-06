@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div
 <<<<<<< HEAD
     class="w-full h-full xs:min-h-screen flex items-center justify-center py-4 "
@@ -76,3 +77,10 @@ export default {
 =======
 </script>
 >>>>>>> b90987dcae42ddba900dbab65afe0f2f8442d338
+=======
+
+    <div class="Project">
+        <h1>Project</h1>
+    </div>
+</template>
+>>>>>>> parent of 44239a7 (Updates)

@@ -7,7 +7,7 @@
     "dev": "vite --port 8080",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && vite build --base . && gh-pages -d dist"
+    "deploy": "vite build . && gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -36,6 +36,7 @@
     "sass": "^1.69.5",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5",
-    "vite-plugin-gh-pages": "^0.4.1"
+    "vite-plugin-gh-pages": "^0.4.1",
+    "vite-plugin-pages": "^0.32.0"
   }
 }

@@ -6,8 +6,12 @@
   "scripts": {
     "dev": "vite --port 8080",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
+=======
+    "preview": "vite preview"
+>>>>>>> parent of 44239a7 (Updates)
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -31,7 +35,10 @@
     "autoprefixer": "^10.4.16",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+<<<<<<< HEAD
     "gh-pages": "^6.1.0",
+=======
+>>>>>>> parent of 44239a7 (Updates)
     "postcss": "^8.4.31",
     "sass": "^1.69.5",
     "tailwindcss": "^3.3.5",

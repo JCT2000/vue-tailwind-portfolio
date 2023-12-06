@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div
     class="w-full h-screen bg-yellow-400 mx-auto px-4 py-8 md:px-20 lg:flex justify-center items-center flex-col"
   >
@@ -15,3 +16,10 @@
   </div>
 </template>
 <script></script>
+=======
+
+    <div class="Skills">
+        <h1>Skills</h1>
+    </div>
+</template>
+>>>>>>> parent of 44239a7 (Updates)

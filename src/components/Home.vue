@@ -1,18 +1,11 @@
 <template>
   <!-- Home section -->
-<<<<<<< HEAD
   <div id="home" class="w-full">
     <div
       class="p-10 h-full xs:min-h-screen flex flex-col items-center overflow-visible md:flex-row"
     >
       <!-- First Column (Image) -->
       <div class="container md:mb-0">
-=======
-  <div id="home" class="w-full ">
-    <div class="p-10 h-full xs:min-h-screen flex flex-col items-center overflow-visible md:flex-row">
-      <!-- First Column (Image) -->
-      <div class=" container md:mb-0">
->>>>>>> parent of 44239a7 (Updates)
         <transition
           enter-active-class="animate__animated"
           @before-enter="beforeEnter"
@@ -27,13 +20,8 @@
         </transition>
       </div>
       <!-- Second Column (Text) -->
-<<<<<<< HEAD
       <div class="container text-black md:flex-row text-center md:text-left">
         <h1 class="text-2xl font-semibold mb-1">Hi, It's me!</h1>
-=======
-      <div class="container text-black  md:flex-row text-center md:text-left">
-        <h1 class="text-2xl  font-semibold mb-1">Hi, It's me!</h1>
->>>>>>> parent of 44239a7 (Updates)
         <h1 class="text-4xl md:text-3xl font-bold mb-1">John Christian Triana</h1>
         <h1 class="text-3xl md:text-2xl font-semibold mb-2">
           And I'm a <span :style="{ color: '#ff004f' }">{{ currentRole }}</span
@@ -75,10 +63,6 @@
           Download Resume
         </a>
       </div>
-<<<<<<< HEAD
-=======
-     
->>>>>>> parent of 44239a7 (Updates)
     </div>
   </div>
 
@@ -87,7 +71,6 @@
     <About />
   </div>
   <!-- Skills Section -->
-<<<<<<< HEAD
   <div id="skills">
     <Skills />
   </div>
@@ -101,26 +84,15 @@
   <div id="contact" class="section w-full h-screen bg-red-400">
     <Contact />
   </div>
-=======
-  <div id="skills" class="section w-full h-screen bg-gray-600"></div>
-  <!-- Project Section -->
-  <div id="project" class="section w-full h-screen bg-yellow-600"></div>
-
-  <!-- Contact Section -->
-  <div id="contact" class="section w-full h-screen bg-gray-100"></div>
->>>>>>> parent of 44239a7 (Updates)
 </template>
 
 <script>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import About from "./About.vue";
-<<<<<<< HEAD
 import Project from "./Project.vue";
 import Skills from "./Skills.vue"
 import Contact from './Contact.vue'
 
-=======
->>>>>>> parent of 44239a7 (Updates)
 
 export default {
   data() {
@@ -137,12 +109,9 @@ export default {
   components: {
     FontAwesomeIcon,
     About,
-<<<<<<< HEAD
     Project,
     Skills,
     Contact,
-=======
->>>>>>> parent of 44239a7 (Updates)
   },
   mounted() {
     this.typeRole();
@@ -193,10 +162,6 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of 44239a7 (Updates)
 /* .hero-overlay {
   position: absolute;
   top: 0;

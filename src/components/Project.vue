@@ -1,12 +1,20 @@
 <template>
   <div
+<<<<<<< HEAD
     class="w-full h-full xs:min-h-screen flex items-center justify-center py-4 "
+=======
+    class="w-full h-full xs:min-h-screen flex items-center justify-center "
+>>>>>>> b90987dcae42ddba900dbab65afe0f2f8442d338
   >
     <div class="container mt-20 sm:mt-10  px-0  lg:px-10 ">
       <h1 class="text-2xl font-bold mb-2 text-center md:text-left">My Projects</h1>
       <p class="text-md text-gray-600 mb-4 text-center md:text-left">Check out some of the projects I've worked on. Click on a project to learn more.</p>
 
+<<<<<<< HEAD
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 lg:gap-8 px-12 sm:px-0">
+=======
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 lg:gap-8  px-12 sm:px-0">
+>>>>>>> b90987dcae42ddba900dbab65afe0f2f8442d338
         <div
           v-for="project in projects"
           :key="project.id"
@@ -63,4 +71,8 @@ export default {
     };
   },
 };
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> b90987dcae42ddba900dbab65afe0f2f8442d338

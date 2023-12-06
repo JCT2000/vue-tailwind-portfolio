@@ -1,14 +1,14 @@
 // vite.config.js
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-  base: '/triana-portfolio/',
+  base: "/vue-tailwind-portfolio/",
   plugins: [vue()],
-  assetsInclude: ['**/*.JPG'],
+  assetsInclude: ["**/*.JPG"],
   resolve: {
     alias: {
-      '@': '/src', // Adjust the alias path
+      "@": "/src", // Adjust the alias path
     },
   },
-})
+});

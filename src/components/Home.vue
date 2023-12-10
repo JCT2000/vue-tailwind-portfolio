@@ -1,9 +1,9 @@
 <template>
   <!-- Home section -->
   <div id="home" class="w-full ">
-    <div class="p-10 h-full xs:min-h-screen flex flex-col items-center overflow-visible md:flex-row">
+    <div class="min-h-screen flex flex-col items-center overflow-visible md:flex-row">
       <!-- First Column (Image) -->
-      <div class=" container md:mb-0">
+      <div class="container mt-5 xs:mt-10 md:mb-0">
         <transition
           enter-active-class="animate__animated"
           @before-enter="beforeEnter"
@@ -19,13 +19,13 @@
       </div>
       <!-- Second Column (Text) -->
       <div class="container text-black  md:flex-row text-center md:text-left">
-        <h1 class="text-2xl  font-semibold mb-1">Hi, It's me!</h1>
-        <h1 class="text-4xl md:text-3xl font-bold mb-1">John Christian Triana</h1>
-        <h1 class="text-3xl md:text-2xl font-semibold mb-2">
+        <h1 class="text-xl xs:text-3xl font-semibold xs:mb-1">Hi, It's me!</h1>
+        <h1 class="text-2xl xs:text-4xl font-bold xs:mb-1">John Christian Triana</h1>
+        <h1 class="text-xl xs:text-3xl font-semibold mb-2">
           And I'm a <span :style="{ color: '#ff004f' }">{{ currentRole }}</span
           ><span id="cursor">|</span>
         </h1>
-        <p class="text-lg md:text-lg lg:text-md mb-1">
+        <p class="px-5 text-sm xs:px-0 xs:text-lg md:pr-10 lg:text-md mb-4 xs:mb-1">
           Creating unforgettable digital experiences through innovative web development and
           captivating design. Let's bring your vision to life.
         </p>

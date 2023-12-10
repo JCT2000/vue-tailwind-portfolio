@@ -2,16 +2,16 @@
 <template>
   <nav
     :class="{ 'dark-mode': isDarkMode, 'light-mode': !isDarkMode }"
-    class="fixed w-full z-20 top-0 dark:border-gray-800"
+    class="fixed w-screen xs:w-full z-20 top-0 dark:border-gray-800"
   >
-    <div class="max-w-screen-xl flex items-center justify-between p-4 lg:mx-12">
+    <div class="w-screen flex items-center justify-between p-2 xs:p-4 ">
       <!-- Logo -->
-      <router-link to="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <router-link to="/" class="flex items-center" >
         <img src="@/assets/images/logo.png" class="h-8" alt="Logo" />
       </router-link>
 
       <!-- Desktop Menu Navbar -->
-      <div class="hidden w-full sm:flex sm:w-auto" id="navbar-sticky">
+      <div class="hidden w-screen sm:flex sm:w-auto" id="navbar-sticky">
         <ul
           class="flex flex-col p-8 md:p-0 font-medium rounded-lg sm:p-0 sm:space-x-2 md:mx-auto md:space-x-8 rtl:space-x-reverse sm:flex-row md:mt-0"
         >
@@ -30,12 +30,12 @@
         </ul>
       </div>
 
-      <div class="">
+      <div class="flex">
         <!-- Mobile Menu -->
         <div
           v-if="mobileMenuVisible"
           :class="{ 'dark-mode': isDarkMode, 'light-mode': !isDarkMode }"
-          class="sm:hidden fixed top-20 p-1 left-0 w-full bg-white z-50 shadow-lg border-solid"
+          class="sm:hidden fixed top-16 p-1 left-0 w-screen bg-white z-50 shadow-lg border-solid"
         >
           <!-- Mobile menu content -->
           <router-link
@@ -54,7 +54,7 @@
         <button
           @click="toggleMobileMenu"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           :aria-expanded="mobileMenuVisible.toString()"
         >
           <span class="sr-only">Open main menu</span>
@@ -85,7 +85,7 @@
           <span class="sr-only">Toggle light/dark mode</span>
           <span
             v-if="isDarkMode"
-            class="w-6 h-6 flex items-center justify-center text-gray-900 dark:text-white"
+            class="w-5 h-5 flex items-center justify-center text-gray-900 dark:text-white"
             role="img"
             aria-label="Sun"
           >
@@ -93,7 +93,7 @@
           </span>
           <span
             v-else
-            class="w-6 h-6 flex items-center justify-center text-gray-900 dark:text-white"
+            class="w-5 h-5 flex items-center justify-center text-gray-900 dark:text-white"
             role="img"
             aria-label="Moon"
           >

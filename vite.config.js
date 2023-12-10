@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/triana-portfolio/',
+  base: '/vue-tailwind-portfolio/',
   plugins: [vue()],
   assetsInclude: ['**/*.JPG'],
   resolve: {

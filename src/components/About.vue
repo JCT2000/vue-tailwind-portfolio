@@ -4,7 +4,7 @@
     >
       <!-- Image Column -->
       <div
-        class="w-full mt-20 lg:mt-0 md:mt-0 md:w-5/12 lg:w-5/12 rounded-lg flex justify-center items-center"
+        class="w-full mt-10 xs:mt-20 lg:mt-0 md:mt-0 md:w-5/12 lg:w-5/12 xs:w-1/3  rounded-lg flex justify-center items-center"
       >
         <!-- Swiper component for image slides -->
         <swiper

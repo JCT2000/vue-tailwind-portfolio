@@ -4,9 +4,9 @@
     :class="{ 'dark-mode': isDarkMode, 'light-mode': !isDarkMode }"
     class="fixed w-screen xs:w-full z-20 top-0 dark:border-gray-800"
   >
-    <div class="w-screen flex items-center justify-between p-2 xs:p-4 ">
+    <div class="w-screen flex items-center justify-around p-2 xs:p-4">
       <!-- Logo -->
-      <router-link to="/" class="flex items-center" >
+      <router-link to="/" class="flex items-center">
         <img src="@/assets/images/logo.png" class="h-8" alt="Logo" />
       </router-link>
 
@@ -35,7 +35,7 @@
         <div
           v-if="mobileMenuVisible"
           :class="{ 'dark-mode': isDarkMode, 'light-mode': !isDarkMode }"
-          class="sm:hidden fixed top-16 p-1 left-0 w-screen bg-white z-50 shadow-lg border-solid"
+          class="fixed sm:hidden top-16 p-1 left-0 w-screen bg-white z-50 shadow-lg border-solid"
         >
           <!-- Mobile menu content -->
           <router-link
